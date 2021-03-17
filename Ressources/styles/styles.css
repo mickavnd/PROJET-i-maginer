@@ -12,23 +12,531 @@
 /*================================header=================================*/
 
 
-/*+.motDupresident{
-    border: 1px red solid;
+.motDupresident{
+ /*  border: 1px red solid;*/
+      height: 800px;
+      position: relative;
+      bottom: 50px; 
 
-}*/
+  }
+  .paragraphe{
+   /*border: 1px darkblue solid;*/
+   width: 50%;
+  }
+  
+  .img-mot-president{
+   display: flex;
+   text-align: center;
+   justify-content: space-evenly;
+   align-items: center;
+  /* border: 1px blue solid;*/ 
+   height: 750px;
+  
+  
+  }
+  
+  .img-president{
+  
+      width: 500px;
+      border-radius:30px ;
+  }
+
+
 .text{
     color: black;
     text-align: center;
 }
 
-/*================================footer=========================*/
+.block-principal{
+   /*  border: 1px red solid;*/
+     height: 500px;
+     
+   
+ 
+ }
+ 
+ .nos-marques{
+    /* border: 1px solid green;*/
+     display: flex;
+     flex-direction: column;
+   
+     
+ }
+ 
+ .block{
+     width: 600px; 
+      position: relative;
+     left: 200px;
+     margin: 5px;
+ }
 
+
+
+
+
+
+
+
+.form{
+
+   /* border: 1px red solid;*/
+    height: 200px;
+    position: relative;
+    top: 270px;
+    background-color:#bcbbba;
+    border-radius:10px ;
+   
+}
+.form-categorie{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titre-form{
+text-align: justify;
+    font-size: 20px;
+    width:50%;
+    margin-top: 20px;
+}
+
+.btn-contact {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4.16%;
+    
+    
+ }
+ 
+ 
+ .btn-contact a {
+    background-color: #2e5596;
+    color: #bcbbba;
+    border-radius: 0 2em 2em 2em;
+    text-decoration: none; 
+    padding: 10px; 
+ }
+ 
+ 
+ .btn-contact a:hover {
+    border: 2px solid  #2e5596 ;
+    color: #bcbbba;
+    
+ }
+
+/*================================footer=========================*/
+#bas-de-page {
+   width: 100%;
+   height: 400px;
+   background: url('../image/Footer.png');
+   padding-top: 50px;
+   padding-bottom: 100px; 
+   background-repeat: no-repeat;
+   position: relative;
+   top:280px;
+/*   border: 1px brown solid ;*/
+   border-radius: 5px;
+}
+.element-footer { 
+/*border: 1px yellow solid;*/
+   width: 70%; 
+   height: 400px;
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction:row;
+   align-items: center;
+   justify-content: center;
+   font-size:  0.9375em;
+   margin-top: 50px;
+   position: relative;
+   bottom: 150px;
+}
+
+.text-position{
+   /* border: 1px palevioletred solid;*/
+    height: 200px;
+     display:flex;
+    justify-content: center;
+
+}
+
+.infos-footer {
+   margin: auto;
+   margin-left: 4.16%;
+   width: 29.16% ;
+   font-size:  0.9375em;
+   color: white;   
+}
+
+.logo-2{
+  margin: auto;
+  width: 10%;
+}
+
+.logo-2 img {
+  width: 250%;
+  height: 50px;
+  position: relative;
+  right: 200px;
+}
+
+ .menu-footer{  
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 4.16%; 
+   width: 20.83%; 
+   color: white;
+}
+.logo-footer{
+
+}
+
+ .menu-footer a {
+   color: white;
+   text-decoration: none;
+   font-size: 0.9375em;
+}
+
+
+.social-footer {
+   flex-flow: wrap;
+   margin: auto;
+   text-align: center;
+   color: white;
+}
+
+.social-footer img {
+   width: 10%;   
+}
+
+.social-footer p {   
+   color: white;
+   text-align: center;
+}
 
 
 
 
 
 /*=============================responsive===========================*/
+@media screen and (max-width: 1430px){
+
+
+   .motDupresident{
+      /*border: 1px red solid;*/
+         height: 800px;
+         position: relative;
+         bottom: 10px;
+     }
+     
+     .img-mot-president{
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+      align-items: center;
+     /* border: 1px blue solid;*/ 
+      height: 750px;
+     
+     
+     }
+     
+     .img-president{
+     
+         width: 350px;
+         border-radius:30px ;
+     }
+     .paragraphe{
+    /* border: 1px darkblue solid;*/
+       width: 50%;
+      }
+     
+/*======================block================*/
+   .block-principal{
+      /*  border: 1px red solid;*/
+        height: 500px;
+        position: relative;
+        bottom: 70px;
+    
+    }
+    
+    .nos-marques{
+       /* border: 1px solid green;*/
+        display: flex;
+        flex-direction: column;
+      
+        
+    }
+    
+    .block{
+        width: 500px; 
+         position: relative;
+        left: 120px;
+      
+    }
+    /*=============form=======*/
+
+.form{
+
+   /* border: 1px red solid;*/
+    height: 200px;
+    position: relative;
+    top: 270px;
+    background-color:#bcbbba;
+    border-radius:10px ;
+   
+}
+.form-categorie{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titre-form{
+text-align: justify;
+    font-size: 20px;
+    width:50%;
+    margin-top: 20px;
+}
+
+.btn-contact {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4.16%;
+    
+    
+ }
+ 
+ 
+ .btn-contact a {
+    background-color: #2e5596;
+    color: #bcbbba;
+    border-radius: 0 2em 2em 2em;
+    text-decoration: none; 
+    padding: 10px; 
+ }
+ 
+ 
+ .btn-contact a:hover {
+    border: 2px solid  #2e5596 ;
+    color: #bcbbba;
+ }
+ /*===========footer===========*/
+
+#bas-de-page {
+    width: 100%;
+    height: 400px;
+    background: url('../image/Footer.png');
+    padding-top: 50px;
+    padding-bottom: 100px; 
+    background-repeat: no-repeat;
+    position: relative;
+    top:280px;
+ /*   border: 1px brown solid ;*/
+    border-radius: 5px;
+ }
+ .element-footer { 
+  /*  border: 1px yellow solid;*/
+    width: 70%; 
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size:  0.9375em;
+    margin-top: 50px;
+    position: relative;
+    bottom: 150px;
+ }
+
+ .text-position{
+    /* border: 1px palevioletred solid;*/
+     height: 200px;
+      display: flex;
+      text-align: justify;
+     justify-content: center;
+
+ }
+ 
+ .infos-footer {
+    margin: auto;
+    margin-left: 4.16%;
+    width: 29.16% ;
+    font-size:  0.9375em;
+    color: white;   
+ }
+ 
+ .logo-2{
+   margin: auto;
+   width: 10%;
+ }
+ 
+ .logo-2 img {
+   width: 200%;
+   height: 50px;
+   position: relative;
+   right: 100px;
+ }
+ 
+  .menu-footer{  
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4.16%; 
+    width: 20.83%; 
+    color: white;
+ }
+
+  .menu-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9375em;
+    display: flex;
+   
+   
+ }
+ 
+ 
+ .social-footer {
+    flex-flow: wrap;
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 35%;
+ }
+ 
+ .social-footer img {
+    width: 10%;   
+ }
+ 
+ .social-footer p {   
+    color: white;
+    text-align: center;
+ }
+
+    
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+
+
+/*======================block================*/
+.block-principal{
+   /* border: 1px red solid;*/
+     height: 500px;
+     position: relative;
+     top: 40px;
+     display: flex;
+   ;
+ 
+ }
+ 
+ .nos-marques{
+    /* border: 1px solid green;*/
+     display: flex;
+     flex-direction: column;
+   
+     
+ }
+ 
+ .block{
+     width: 400px; 
+      position: relative;
+     left: 120px;
+   
+ }
+ /*=============form=======*/
+
+.form{
+
+  /*  border: 1px red solid;*/
+    height: 200px;
+    position: relative;
+    top: 270px;
+    background-color:#bcbbba;
+    border-radius:10px ;
+   
+}
+.form-categorie{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titre-form{
+text-align: justify;
+    font-size: 20px;
+    width:50%;
+    margin-top: 20px;
+}
+
+.btn-contact {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4.16%;
+    
+    
+ }
+ 
+ 
+ .btn-contact a {
+    background-color: #2e5596;
+    color: #bcbbba;
+    border-radius: 0 2em 2em 2em;
+    text-decoration: none; 
+    padding: 10px; 
+ }
+ 
+ 
+ .btn-contact a:hover {
+    border: 2px solid  #2e5596 ;
+    color: #bcbbba;
+ }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -38,7 +546,7 @@
  /*border: 1px red solid;*/
     height: 800px;
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
 }
 
 .img-mot-president{
@@ -62,9 +570,11 @@
   /*  border: 1px red solid;*/
     height: 500px;
     position: relative;
-    bottom: 80px;
+    bottom: 290px;
+    top:-80px;
 
 }
+
 .nos-marques{
    /* border: 1px solid green;*/
     display: flex;
@@ -76,9 +586,13 @@
 .block{
     width: 300px; 
      position: relative;
-    left: 40px;
-    margin-top: 10px;
+      left: 35px;
+  
 }
+.paragraphe{
+/* border: 1px darkblue solid;*/
+   width: 100%;
+  }
 
 /*=============form=======*/
 
@@ -145,11 +659,11 @@ text-align: justify;
     background-repeat: no-repeat;
     position: relative;
     top:280px;
-    border: 1px brown solid ;
+    /*border: 1px brown solid ;*/
     border-radius: 5px;
  }
  .element-footer { 
-    border: 1px yellow solid;
+    /*border: 1px yellow solid;*/
     width: 70%; 
     height: 400px;
     margin: auto;
@@ -199,14 +713,13 @@ text-align: justify;
     width: 20.83%; 
     color: white;
  }
- .logo-footer{
  
- }
  
   .menu-footer a {
     color: white;
     text-decoration: none;
     font-size: 0.9375em;
+    
  }
  
  
@@ -215,6 +728,7 @@ text-align: justify;
     margin: auto;
     text-align: center;
     color: white;
+    width: 120%;
  }
  
  .social-footer img {
