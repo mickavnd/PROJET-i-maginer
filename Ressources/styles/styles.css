@@ -59,14 +59,15 @@
     /* border: 1px solid green;*/
      display: flex;
      flex-direction: column;
-   
+  width: 60%; 
      
  }
  
+ 
  .block{
-     width: 600px; 
+     width: 500px; 
       position: relative;
-     left: 200px;
+     left: 450px;
      margin: 5px;
  }
 
@@ -258,22 +259,22 @@ text-align: justify;
       /*  border: 1px red solid;*/
         height: 500px;
         position: relative;
-        bottom: 70px;
+        top: 70px;
     
     }
     
     .nos-marques{
-       /* border: 1px solid green;*/
+      /*  border: 1px solid green;*/
         display: flex;
-        flex-direction: column;
+      
       
         
     }
     
     .block{
-        width: 500px; 
+        width: 350px; 
          position: relative;
-        left: 120px;
+        left: 350px;
       
     }
     /*=============form=======*/
@@ -438,9 +439,9 @@ text-align: justify;
    /* border: 1px red solid;*/
      height: 500px;
      position: relative;
-     top: 40px;
+     top: 110px;
      display: flex;
-   ;
+   
  
  }
  
@@ -453,9 +454,9 @@ text-align: justify;
  }
  
  .block{
-     width: 400px; 
+     width: 290px; 
       position: relative;
-     left: 120px;
+     left: 220px;
    
  }
  /*=============form=======*/
@@ -508,30 +509,7 @@ text-align: justify;
     color: #bcbbba;
  }
 
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -587,6 +565,7 @@ text-align: justify;
     width: 300px; 
      position: relative;
       left: 35px;
+      bottom: 20px;
   
 }
 .paragraphe{

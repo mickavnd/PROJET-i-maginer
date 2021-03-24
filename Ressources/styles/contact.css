@@ -123,8 +123,9 @@ body {
         border: 2px solid silver;
          width:500px ;
          position: relative;
-         left: 750px;
-         bottom: 250px;
+         left: 800px;
+         bottom: 290px;
+         border-radius: 20px;
         
      }
 
