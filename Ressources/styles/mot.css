@@ -157,12 +157,18 @@ margin-top: 10px;
      }
 
 
+     @media screen and (max-width: 1024px){
 
+        .image-president{
 
+            width: 500px;
+            border-radius: 10px;
+            position: relative;
+            top: 90px;
+            left: 250px;
+           }
 
-
-
-
+    }
 
 
 

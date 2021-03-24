@@ -1,0 +1,337 @@
+
+
+.texte-mentionslegales, .titre-1, .signature-texte{
+    color: black;
+/*border: 1px red solid;*/
+text-align: center;
+position: relative;
+top: 100px;
+margin-top: 10px;
+}
+
+.image-president{
+
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    top: 90px;
+    left: 650px;
+   }
+
+
+
+   .form-categorie{
+    background-color: #bcbbba;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        position: relative;
+        top: 130px;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    
+    
+     }
+    
+    
+    
+    .titre-form{
+     
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    
+    }
+    
+    .btn-contact {
+     width: 100%;
+     color: white;
+     margin: auto;
+     margin-left: 35px;
+    }
+    .logos{
+      /* border: 1px red solid;*/
+        display: flex;
+    
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 40PX;
+    }
+    .marquelog{
+        width: 250px;
+        
+    }
+
+    #bas-de-page {
+        width: 100%;
+        height: 400px;
+        background: url('../image/Footer.png');
+        padding-top: 50px;
+        padding-bottom: 100px; 
+        background-repeat: no-repeat;
+        position: relative;
+        top:120px;
+     /*   border: 1px brown solid ;*/
+        border-radius: 5px;
+     }
+     .element-footer { 
+     /*border: 1px yellow solid;*/
+        width: 70%; 
+        height: 400px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        font-size:  0.9375em;
+        margin-top: 50px;
+        position: relative;
+        bottom: 150px;
+     }
+     
+     .text-position{
+        /* border: 1px palevioletred solid;*/
+         height: 200px;
+          display:flex;
+         justify-content: center;
+     
+     }
+     
+     .infos-footer {
+        margin: auto;
+        margin-left: 4.16%;
+        width: 29.16% ;
+        font-size:  0.9375em;
+        color: white;   
+     }
+     
+     .logo-2{
+       margin: auto;
+       width: 10%;
+     }
+     
+     .logo-2 img {
+       width: 250%;
+       height: 50px;
+       position: relative;
+       right: 200px;
+     }
+     
+      .menu-footer{  
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 4.16%; 
+        width: 20.83%; 
+        color: white;
+     }
+     .logo-footer{
+     
+     }
+     
+      .menu-footer a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.9375em;
+     }
+     
+     
+     .social-footer {
+        flex-flow: wrap;
+        margin: auto;
+        text-align: center;
+        color: white;
+     }
+     
+     .social-footer img {
+        width: 10%;   
+     }
+     
+     .social-footer p {   
+        color: white;
+        text-align: center;
+     }
+
+
+     @media screen and (max-width: 1024px){
+
+        .image-president{
+
+            width: 500px;
+            border-radius: 10px;
+            position: relative;
+            top: 90px;
+            left: 250px;
+           }
+
+    }
+
+
+
+    @media screen and (max-width: 600px){
+
+        .image-president{
+    
+         width: 300px;
+         border-radius: 10px;
+         position: relative;
+         top: 90px;
+         left: 50px;
+        }
+    .texte-mentionslegales, .titre-1, .signature-texte{
+        color: black;
+    /*border: 1px red solid;*/
+    text-align: center;
+    position: relative;
+    top: 100px;
+    }
+    
+    
+    .form-categorie {
+        background-color: #bcbbba;
+            width: 100%;
+            height: 550px;
+            display: flex;
+            position: relative;
+            top: 100px;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+        
+        
+         }
+        
+      
+        
+        .titre-form{
+         
+        margin: auto;
+        width: 90%;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        
+        }
+        
+        .btn-contact {
+         width: 100%;
+         color: white;
+         margin: auto;
+         margin-left: 35px;
+        }
+        .logos{
+          /* border: 1px red solid;*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            bottom: 40PX;
+        }
+        .marquelog{
+            width: 250px;
+        }
+    
+        /*===========footer===========*/
+    
+    #bas-de-page {
+        width: 100%;
+        height: 400px;
+        background: url('../image/Footer.png');
+        padding-top: 50px;
+        padding-bottom: 100px; 
+        background-repeat: no-repeat;
+        position: relative;
+        top:70px;
+        /*border: 1px brown solid ;*/
+        border-radius: 5px;
+     }
+     .element-footer { 
+       /* border: 1px yellow solid;*/
+        width: 70%; 
+        height: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size:  0.9375em;
+        margin-top: 50px;
+        position: relative;
+        bottom:70px;
+     }
+    
+     .text-position{
+        /* border: 1px palevioletred solid;*/
+         height: 200px;
+          display: flex;
+         justify-content: center;
+         position: relative;
+        top:20px ;
+    
+     }
+     
+     .infos-footer {
+        margin: auto;
+        margin-left: 4.16%;
+        width: 29.16% ;
+        font-size:  0.9375em;
+        color: white;   
+     }
+     
+     .logo-2{
+       margin: auto;
+       width: 10%;
+     }
+     
+     .logo-2 img {
+       width: 600%;
+       height: 50px;
+       position: relative;
+       right: 60px;
+     }
+     
+      .menu-footer{  
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 4.16%; 
+        width: 20.83%; 
+        color: white;
+     }
+     
+     
+      .menu-footer a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.9375em;
+        
+     }
+     
+     
+     .social-footer {
+        flex-flow: wrap;
+        margin: auto;
+        text-align: center;
+        color: white;
+        width: 120%;
+        position: relative;
+        right: 30px;
+        top:30px ; 
+     }
+     
+     .social-footer img {
+        width: 10%;   
+     }
+     
+     .social-footer p {   
+        color: white;
+        text-align: center;
+     }
+    
+    
+    }
