@@ -66,6 +66,34 @@ margin-top: 10px;
         
     }
 
+
+
+    .back-to-top {
+      position: fixed;
+      display: none;
+      background: #2e5596;
+      color: #fff;
+      width: 83px;
+      height: 44px;
+      text-align: center;
+      line-height: 1;
+      font-size: 16px;
+      border-radius: 2em 0 2em 2em;
+      right: 15px;
+      bottom: 15px;
+      transition: background 0.5s;
+    }
+   
+    
+    .back-to-top p {
+      padding-top: 12px;
+      color:;
+      font-size: 17px;
+    }
+   
+   .top:hover{
+      color: coral;
+   }
     #bas-de-page {
         width: 100%;
         height: 400px;
