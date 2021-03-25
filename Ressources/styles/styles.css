@@ -17,7 +17,12 @@
       height: 800px;
       position: relative;
       bottom: 50px; 
+      color: black;
 
+  }
+
+  .mot{
+     color: black;
   }
   .paragraphe{
    /*border: 1px darkblue solid;*/
@@ -71,12 +76,37 @@
      margin: 5px;
  }
 
+ .visible{
+    color: black;
+ }
 
 
+ .back-to-top {
+   position: fixed;
+   display: none;
+   background: #2e5596;
+   color: #fff;
+   width: 83px;
+   height: 44px;
+   text-align: center;
+   line-height: 1;
+   font-size: 16px;
+   border-radius: 2em 0 2em 2em;
+   right: 15px;
+   bottom: 15px;
+   transition: background 0.5s;
+ }
 
+ 
+ .back-to-top p {
+   padding-top: 12px;
+   color:;
+   font-size: 17px;
+ }
 
-
-
+.top:hover{
+   color: coral;
+}
 
 .form{
 
@@ -114,7 +144,7 @@ text-align: justify;
  
  .btn-contact a {
     background-color: #2e5596;
-    color: #bcbbba;
+    color:#fff;
     border-radius: 0 2em 2em 2em;
     text-decoration: none; 
     padding: 10px; 
@@ -123,7 +153,7 @@ text-align: justify;
  
  .btn-contact a:hover {
     border: 2px solid  #2e5596 ;
-    color: #bcbbba;
+    color: #fff;
     
  }
 
@@ -191,9 +221,7 @@ text-align: justify;
    width: 20.83%; 
    color: white;
 }
-.logo-footer{
 
-}
 
  .menu-footer a {
    color: white;
@@ -232,7 +260,9 @@ text-align: justify;
          position: relative;
          bottom: 10px;
      }
-     
+     .mot{
+      color: black;
+   }
      .img-mot-president{
       display: flex;
       text-align: center;
@@ -315,7 +345,7 @@ text-align: justify;
  
  .btn-contact a {
     background-color: #2e5596;
-    color: #bcbbba;
+    color: #fff;
     border-radius: 0 2em 2em 2em;
     text-decoration: none; 
     padding: 10px; 
@@ -324,7 +354,7 @@ text-align: justify;
  
  .btn-contact a:hover {
     border: 2px solid  #2e5596 ;
-    color: #bcbbba;
+    color: #fff;
  }
  /*===========footer===========*/
 
@@ -379,8 +409,8 @@ text-align: justify;
  }
  
  .logo-2 img {
-   width: 200%;
-   height: 50px;
+   width: 179PX;
+   height: 56px;
    position: relative;
    right: 100px;
  }
