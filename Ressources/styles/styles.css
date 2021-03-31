@@ -275,9 +275,6 @@ text-align: justify;
      }
      
      .img-president{
-     
-         width: 350px;
-         border-radius:30px ;
      }
      .paragraphe{
     /* border: 1px darkblue solid;*/
@@ -286,12 +283,39 @@ text-align: justify;
      
 /*======================block================*/
    .block-principal{
-      /*  border: 1px red solid;*/
+       border: 1px red solid;
         height: 500px;
         position: relative;
         top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     
     }
+
+    .titre-marques{
+      border: 1px red solid;
+      text-align: center;
+      position: relative;
+      
+
+    }
+    .marques-img{
+       margin-top: 10px;
+      border: 1px red solid;
+      height: 400px;
+
+
+    }
+
+    .block-imag1{
+       border:1px solid black;
+       height: 100px;
+    }
+    .block-imag2{
+      border:1px solid black;
+      height: 100px;
+   }
     
     .nos-marques{
       /*  border: 1px solid green;*/
@@ -544,7 +568,48 @@ text-align: justify;
 
 
 
+@media screen and (max-width: 947px){
 
+
+.block-principal{
+    border: 1px red solid;
+     height: 500px;
+     position: relative;
+     top: 110px;
+     display: flex;
+     justify-content: center;
+   
+ 
+ }
+ 
+ .nos-marques{
+    /* border: 1px solid green;*/
+   
+     
+ }
+ .marques-img{
+   border: 1px solid green;
+   display: grid;
+   justify-content: center;
+   grid-template-columns: 50px 50px ;
+
+
+
+ }
+ 
+ .block{
+     width:50%; 
+     background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+   
+ }
+ 
+
+
+}
 
 
 @media screen and (max-width: 600px) {

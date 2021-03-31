@@ -1,12 +1,43 @@
-
+.partie-infos{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+}
 
 .texte-president, .titre-1, .signature-texte{
     color: black;
-/*border: 1px red solid;*/
+
 text-align: center;
 position: relative;
 top: 100px;
 margin-top: 10px;
+text-align: center;
+
+
+}
+p{
+
+   width: 70%;
+   position: relative;
+   left: 300px;
+   
+}
+.signature-text{
+  /* border: 1px blue solid;*/
+   position: relative;
+   top: 100px;
+   color: black;
+}
+@media screen and (max-width: 975px) {
+   
+   p{
+
+      width: 70%;
+      position: relative;
+      left: 150px;
+      
+   }
 }
 
 .image-president{
@@ -15,10 +46,12 @@ margin-top: 10px;
     border-radius: 10px;
     position: relative;
     top: 90px;
-    left: 450px;
+    
    }
 
-
+  #header{
+     background-color:#2e5596;
+  }
 
    .form-categorie{
     background-color: #bcbbba;
@@ -65,7 +98,11 @@ margin-top: 10px;
         width: 250px;
         
     }
-
+   .logo-3{
+      width: 679PX;
+      height: 56px;
+      position: relative;
+     top: 10px;}
 
 
     .back-to-top {
@@ -87,7 +124,6 @@ margin-top: 10px;
     
     .back-to-top p {
       padding-top: 12px;
-      color:;
       font-size: 17px;
     }
    
@@ -183,19 +219,7 @@ margin-top: 10px;
      }
 
 
-     @media screen and (max-width: 1024px){
-
-        .image-president{
-
-            width: 500px;
-            border-radius: 10px;
-            position: relative;
-            top: 90px;
-            left: 250px;
-           }
-
-    }
-
+    
 
 
 
@@ -210,7 +234,6 @@ margin-top: 10px;
      border-radius: 10px;
      position: relative;
      top: 90px;
-     left: 50px;
     }
 .texte-president, .titre-1, .signature-texte{
     color: black;
@@ -235,7 +258,13 @@ top: 100px;
     
      }
     
-  
+     p{
+
+      width: 70%;
+      position: relative;
+      left: 50px;
+      
+   }
     
     .titre-form{
      

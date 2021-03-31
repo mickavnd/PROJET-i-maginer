@@ -35,7 +35,7 @@ body {
  #header {
    transition: all 0.5s;
    z-index: 997;
-   background: rgba(255, 255, 255, 0.9);
+   background: transparent;
  }
 
  .logo-accueil{
@@ -44,11 +44,11 @@ body {
 }
  
  #header.header-transparent {
-   background: transparent;
+   background: whitesmoke;
  }
  
- #header.header-scrolled {
-   background: rgb(255, 255, 255);
+ .header-scrolled {
+   background: blue;
    padding: 5px 0;
  }
  
@@ -89,7 +89,7 @@ body {
  .nav-menu a {
    display: block;
    position: relative;
-   color: #fff;
+   color: white;
    transition: 0.3s;
    font-size: 14px;
    font-family: 'nunito', sans-serif;
@@ -98,7 +98,7 @@ body {
  }
  
  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-   color: #cccccc;
+   color:white;
  }
  
  .nav-menu .drop-down ul {
